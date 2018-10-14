@@ -32,10 +32,10 @@ nav a{
     display: block;
     width: 5em;
     font-family: script MT;
-    font-size: 1em;
+    font-size: 1.5em;
     border-bottom: solid .5px white;
     text-decoration:none;
-    padding: 1em;
+    padding: 2em;
     background: white;
     }
 nav a:hover {
