@@ -6,23 +6,23 @@ body {
    background-size: cover;
     }
     
-    header{
-      text-align: center;
+header{
+    text-align: center;
     }
     
-    h1{
+h1{
       color: #CEC480;
       font-family: brush script MT;
       text-align: center;
       font-size: 90px;
     }
-  h2{
+h2{
     color: #686468;
       font-family: brush script MT;
       text-align: center;
       font-size: 70px;
   }
-    #menuToggle{
+#menuToggle{
     display: block;
     position: relative; 
     top: 30px; 
@@ -103,26 +103,26 @@ body {
 #menu a :hover{
     color: #35345e;
     }
-  #head h1{
+#head h1{
       color: purple;
       padding-top:200px;
       font-size:100px;
     }
   
-  #head img{
+#head img{
       position: relative;
-      padding-left: 33em;
+      padding-left: 30em;
       width: 20%;
   }
       
-  #p{
+#p{
       color: black;
       font-family: cursive;
       text-align: center;
       font-size: 25px;
     }
   
-  section address{
+section address{
       color: black;
       font-family: script;
       text-align: center;
@@ -134,16 +134,16 @@ body {
       background-color: pink;
     }
   
-  #add{
+#add{
       text-decoration: none;
       color: rgb(58, 46, 58);
   }
    /*address email ref */
-  #add:hover {
+#add:hover {
       text-decoration:underline;
   }
    /*p and f words */
-  h3{
+h3{
       font-size:150%;
       text-align: center;
       margin-top: 3em;
@@ -151,7 +151,7 @@ body {
       font-family: cursive;
     }
      /* changes the position of the link logos from vertical to horizontal*/
-    footer{
+footer{
       text-align: center;
       margin-top: 2.5em;
       color: #A78AA8;
