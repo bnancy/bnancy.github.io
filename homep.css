@@ -32,7 +32,7 @@ nav a{
     display: block;
     width: 5em;
     font-family: script MT;
-    font-size: 1.5em;
+    font-size: 1em;
     border-bottom: solid .5px white;
     text-decoration:none;
     padding: 2em;
@@ -85,7 +85,7 @@ a {
     font-family: script MT;
     text-decoration:none;
     text-align: center;
-    padding-left: 18em;
+    padding-left: 26em;
     }
 
     a:hover{
