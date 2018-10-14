@@ -1,0 +1,142 @@
+body {
+    color: #ac8007;
+    font-family: arial;
+    line-height:170%;
+    margin: 0 auto;
+    }
+header{
+    text-align: center;
+    }
+h1{
+    color: #a1331f;
+    font-family: brush script MT;
+    text-align: center;
+    font-size: 90px;
+    }
+h2{
+    color:  #ac8007;
+    font-family: brush script MT;
+    text-align: center;
+    font-size: 40px;
+    }
+    
+
+#menuToggle{
+    display: block;
+    position: relative; 
+    top: 30px; 
+    left: 30px; 
+    z-index: 1; 
+    -webkit-user-select: none; 
+    user-select: two;
+    }
+#menuToggle input{
+    display: block; 
+    width: 30px; 
+    height: 30px; 
+    position: absolute; 
+    top: -7px; 
+    left: -5px; 
+    cursor: pointer;  
+    opacity: 0; 
+    z-index: 2; 
+    -webkit-touch-callout: none;
+    }
+#menuToggle span{  
+    display: block; 
+    width: 33px; 
+    height: 4px; 
+    margin-bottom: 5px; 
+    position: relative; 
+    background: rgb(110, 73, 16);  
+    border-radius: 3px; 
+    z-index: 1; 
+    transform-origin: 4px 0px; 
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+    }
+#menuToggle span:first-child{
+    transform-origin: 0% 0%;
+    }
+#menuToggle span:nth-last-child(2){
+    transform-origin: 0% 100%;
+    }
+#menuToggle input:checked ~ span{
+    opacity: 1; transform: rotate(45deg) translate(-2px, -1px); 
+    background: rgb(184, 110, 15);
+    }
+#menuToggle input:checked ~ span:nth-last-child(3){
+    opacity: 0; 
+    transform: rotate(0deg) scale(0.2, 0.2);
+    }
+#menuToggle input:checked ~ span:nth-last-child(2){
+    transform: rotate(-45deg) translate(0, -1px);
+    }
+#menu{
+    position: absolute; 
+    width: 300px; 
+    margin: -150px 0 0 -70px; 
+    padding: 30px; 
+    padding-top: 125px; 
+    background: clear; 
+    list-style-type: none; 
+    -webkit-font-smoothing: antialiased;  
+    transform-origin: 0% 0%; 
+    transform: translate(-100%, 0);  
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+#menu li{
+    padding: 5px 0; 
+    font-size: 25px;
+    font-family: script MT;
+    color: rgb(141, 41, 28);
+    text-decoration: none;
+    }
+#menuToggle input:checked ~ ul{
+    transform: none;
+    }
+#menu a{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+    
+#menu a :hover{
+    color: #35345e;
+    }
+
+#head{
+    background: url("http://www.avlll.co.uk/wp-content/uploads/2015/06/sewing-tools.jpg");
+    height: 200px;
+    width: 1000px;
+    text-align:center;
+    background-position: center center;
+    background-size: cover;
+    padding: 10% 10%;
+    margin: auto;
+    }
+section p{
+    color: rgb(42, 81, 126);
+    font-family: script MT;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin: 3em 7em;
+    border-left: solid 1px #1f2466;
+    border-right: solid 1px #1f2466;
+    border-radius: 85px;
+    flex-grow:1;
+    flex-basis:0;
+    padding: 2em;
+    }
+
+#img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+footer{
+    text-align: center;
+    margin-top: 2.5em;
+    color: #1f2466;
+    }
+    
