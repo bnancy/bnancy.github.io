@@ -85,7 +85,10 @@ a {
     font-family: script MT;
     text-decoration:none;
     text-align: center;
-    padding-left: 26em;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
     }
 
     a:hover{
