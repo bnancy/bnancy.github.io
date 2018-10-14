@@ -110,9 +110,10 @@ h2{
     }
   
 #head img{
-      position: relative;
-      padding-left: 30em;
-      width: 20%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
   }
       
 #p{
