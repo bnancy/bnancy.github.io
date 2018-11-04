@@ -1,46 +1,41 @@
 body {
-    color: #d31a1a;
-    font-family: script MT;
-    line-height: 270%;
+    color: #ac8007;
+    font-family: arial;
     margin: 0 auto;
-  }
-  
+    text-align: center;
+    }
 header{
     text-align: center;
-  }
-
-#bee{
-    padding-left: 18em;
-    width: 250px;
     }
-  
-header img{
-    display: block;
-    padding-left: 3em;
-    padding-top: 5em;
-}
-  
 h1{
-    color: #a77917;
+    color: #a1331f;
     font-family: brush script MT;
-    text-align: right;
-    padding-right: 1.5em;
-    margin-top:-4em;
-    font-size: 80px;
-  }
-  
+    text-align: center;
+    font-size: 70px;
+    padding-top: .1em;
+    }
 h2{
-    color: rgb(53, 100, 112);
+    color:  #ac8007;
     font-family: brush script MT;
-    text-align: right;
-    padding-right: 8em;
-    font-size: 50px;
-  }
-p{
-    text-align: right;
-    padding-right: 19em;
+    text-align: center;
+    font-size: 40px;
+    }
+#bee{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
-
+section p{
+    color: rgb(34, 26, 107);
+    font-family: script MT;
+    text-align: center;
+    font-size: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 #menuToggle{
     display: block;
     position: relative; 
@@ -127,8 +122,8 @@ p{
   }
 
 #blog iframe {
-    width: 1000px;
-    height: 650px;
+    width: 1250px;
+    height: 1000px;
     margin: 0 auto;
     margin-top: 3em;
   }
