@@ -1,5 +1,5 @@
 body {
-    color: #686468;
+    color: #c2a91d;
     font-family: arial;
     line-height:170%;
     margin: 0 auto;
@@ -11,13 +11,13 @@ header{
     }
     
 h1{
-      color: #CEC480;
+      color: #8d4225;
       font-family: brush script MT;
       text-align: center;
       font-size: 90px;
     }
 h2{
-    color: #686468;
+    color: #9c891e;
       font-family: brush script MT;
       text-align: center;
       font-size: 70px;
@@ -103,11 +103,6 @@ h2{
 #menu a :hover{
     color: #35345e;
     }
-#head h1{
-      color: purple;
-      padding-top:200px;
-      font-size:100px;
-    }
   
 #head img{
     display:block;
@@ -117,8 +112,8 @@ h2{
   }
       
 #p{
-      color: black;
-      font-family: cursive;
+      color: rgb(20, 21, 78);
+      font-family: script MT;
       text-align: center;
       font-size: 25px;
     }
@@ -130,9 +125,9 @@ section address{
       font-size: 20px;
       position: flex;
       margin: 1em 20em;
-      border: solid .05em rgb(71, 56, 71);
+      border: outset .1em rgb(236, 216, 236);
       border-radius: 85px;
-      background-color: pink;
+      background-color: rgba(192, 196, 255, 0.877);
     }
   
 #add{
@@ -151,9 +146,8 @@ h3{
       color: orange;
       font-family: cursive;
     }
-     /* changes the position of the link logos from vertical to horizontal*/
 footer{
       text-align: center;
       margin-top: 2.5em;
-      color: #A78AA8;
+      color: rgb(46, 29, 95);
   }
