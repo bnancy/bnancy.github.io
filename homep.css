@@ -162,6 +162,7 @@ img {
 .text {
   color: white;
   font-size: 15px;
+  font-weight: bold;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -230,7 +231,5 @@ footer{
     text-align: center;
     margin-top: 2.5em;
     color: rgb(19, 40, 85);
-    font-size: 1.5em;
-    font-family: script;
+    font-size: 1em;
     }
-    
