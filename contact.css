@@ -119,20 +119,21 @@ h2{
     }
   
 section address{
-      color: black;
+      color: white;
       font-family: script;
       text-align: center;
       font-size: 20px;
-      position: flex;
-      margin: 1em 20em;
+      margin: 1em 30em;
       border: outset .1em rgb(236, 216, 236);
-      border-radius: 85px;
-      background-color: rgba(192, 196, 255, 0.877);
+      border-radius: 90px;
+      background-color: #9c891e;
+      padding-top: 2em;
     }
   
 #add{
       text-decoration: none;
       color: rgb(58, 46, 58);
+      color: white;  
   }
    /*address email ref */
 #add:hover {
