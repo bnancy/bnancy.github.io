@@ -1,0 +1,469 @@
+body {
+
+    color: #ac8007;
+
+    font-family: arial;
+
+    line-height:170%;
+
+    margin: 0 auto;
+
+    }
+
+header{
+
+    text-align: center;
+
+    }
+
+h1{
+
+    color: #ac810c;
+
+    font-family: brush script MT;
+
+    text-align: center;
+
+    font-size: 90px;
+
+    }
+
+h2{
+
+    color: rgb(182, 43, 8);
+
+    font-family: brush script MT;
+
+    text-align: center;
+
+    font-size: 40px;
+
+    }
+
+nav ul{
+
+    list-style: none;
+
+    padding:0;
+
+    }
+
+nav li{
+
+    display:inline-block;
+
+    font-size: 1.5em;
+
+    }
+
+nav a{
+
+    color: rgb(138, 48, 21);
+
+    display: block;
+
+    width: 5em;
+
+    font-family: script MT;
+
+    font-size: 1em;
+
+    border-bottom: solid .5px white;
+
+    text-decoration:none;
+
+    padding: 2em;
+
+    background: white;
+
+    }
+
+nav a:hover {
+
+    border-bottom: solid .3px rgb(153, 38, 10);
+
+    transition: border-bottom 1s;
+
+    }
+
+#head{
+
+    background: url("https://st2.depositphotos.com/1001439/9568/i/950/depositphotos_95689702-stock-photo-excellent-mocap-two-old-wooden.jpg");
+
+    height: 500px;
+
+    text-align:center;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    }
+
+#head h1{
+
+    color: rgb(42, 81, 126);
+
+    padding-top:200px;
+
+    font-size:80px;
+
+    }
+
+#head a{
+
+    color: rgb(189, 88, 21);
+
+    width: 300px;
+
+    padding: 1em;
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 2em;
+
+    font-family: script MT;
+
+    border-radius: 50px;
+
+    border-bottom: solid .05em rgb(190, 74, 39);
+
+    }
+
+#head a:hover{
+
+    background: rgba(250, 250, 250, 0.349);
+
+    color: rgba(36, 47, 83, 0.973);
+
+    border: solid .05em rgb(190, 74, 39);
+
+
+
+    }
+
+h3{
+
+    font-size:150%;
+
+    font-family: papyrus;
+
+    text-align: center;
+
+    margin-top: 3em;
+
+    }
+
+
+
+a {
+
+    color: rgb(189, 88, 21);
+
+    font-size: 2em;
+
+    font-family: script MT;
+
+    text-decoration:none;
+
+    text-align: center;
+
+    display:block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 15%;
+
+    }
+
+
+
+    a:hover{
+
+        color: rgba(36, 47, 83, 0.973);
+
+
+
+    
+
+        }
+
+main{
+
+    display: flex;
+
+    max-width:50em;
+
+    margin: 1em auto;
+
+    }
+
+main section{
+
+    position: relative;
+
+    margin: 0.25em;
+
+    border-right: solid 1px rgb(141, 41, 28);
+
+    border-right: solid 1px rgb(141, 41, 28);
+
+    border-radius: 50px;
+
+    flex-grow:1;
+
+    flex-basis:0;
+
+    padding-left: 1em;
+
+    padding-right: 1em;
+
+    }
+
+/* styles for the slideshow*/
+
+
+
+*   {box-sizing: 1000px;}
+
+body {
+
+    font-family: Verdana, sans-serif; margin:0
+
+}
+
+.mySlides {
+
+    display: none
+
+}
+
+img {
+
+    vertical-align: middle;
+
+}
+
+
+
+/* Slideshow container */
+
+.slideshow-container {
+
+  max-width: 500px;
+
+  position: relative;
+
+  margin: auto;
+
+}
+
+
+
+/* Next & previous buttons */
+
+.prev, .next {
+
+  cursor: pointer;
+
+  position: absolute;
+
+  top: 50%;
+
+  width: auto;
+
+  padding: 16px;
+
+  margin-top: -22px;
+
+  color: white;
+
+  font-weight: bold;
+
+  font-size: 18px;
+
+  transition: 0.6s ease;
+
+  border-radius: 0 3px 3px 0;
+
+}
+
+
+
+/* Position the "next button" to the right */
+
+.next {
+
+  right: 0;
+
+  border-radius: 3px 0 0 3px;
+
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+
+  background-color: #D1AB2F;
+
+}
+
+
+
+/* Caption text */
+
+.text {
+
+  color: white;
+
+  font-size: 15px;
+
+  font-weight: bold;
+
+  padding: 8px 12px;
+
+  position: absolute;
+
+  bottom: 8px;
+
+  width: 100%;
+
+  text-align: center;
+
+}
+
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+
+  color: white;
+
+  font-size: 12px;
+
+  padding: 8px 12px;
+
+  position: absolute;
+
+  top: 0;
+
+}
+
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+
+  cursor: pointer;
+
+  height: 15px;
+
+  width: 15px;
+
+  margin: 0 2px;
+
+  background-color: #FBD248;
+
+  border-radius: 50%;
+
+  display: inline-block;
+
+  transition: background-color 0.6s ease;
+
+}
+
+
+
+.active, .dot:hover {
+
+  background-color: #D1AB2F;
+
+}
+
+
+
+/* Fading animation */
+
+.fade {
+
+  -webkit-animation-name: fade;
+
+  -webkit-animation-duration: 1.5s;
+
+  animation-name: fade;
+
+  animation-duration: 1.5s;
+
+}
+
+
+
+@-webkit-keyframes fade {
+
+  from {opacity: .4} 
+
+  to {opacity: 1}
+
+}
+
+
+
+@keyframes fade {
+
+  from {opacity: .4} 
+
+  to {opacity: 1}
+
+}
+
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+
+  .prev, .next,.text {font-size: 11px}
+
+}
+
+
+
+
+
+main h3{
+
+    font-size: 150%;
+
+    text-align: center;
+
+    font-family: cursive;
+
+    }
+
+main p {
+
+    color: #151c38;
+
+    }
+
+footer{
+
+    text-align: center;
+
+    margin-top: 2.5em;
+
+    color: rgb(19, 40, 85);
+
+    font-size: 1em;
+
+    }
