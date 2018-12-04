@@ -1,0 +1,97 @@
+body {
+    color: #686468;
+    font-family: script MT;
+    line-height:170%;
+    margin: auto;
+    width: 80%;
+	font-size: 1.5em;
+  }
+  
+  header{
+    text-align: center;
+  }
+  
+  h1{
+    color: #566CA6;
+    font-family: brush script MT;
+    text-align: center;
+    font-size: 90px;
+  }
+  
+  h2{
+    color: #A754B7;
+    font-family: brush script MT;
+    text-align: center;
+    font-size: 40px;
+  }
+    
+  #head{
+    background: url("https://beatcancer2010.files.wordpress.com/2011/05/pollo-guisado.jpg");
+    min-height: 550px;
+    text-align:center;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  #head h1{
+    color: white;
+    padding-top:200px;
+    font-size:100px;
+  }
+  
+  #head a{
+    border: solid 2px white;
+    color: white;
+    width: 200px;
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  
+  #head a:hover{
+    background: rgba(255, 255, 255, 0.13);
+  }
+  
+  h3{
+    font-size:150%;
+    text-align: center;
+    margin-top: 2em;
+	
+  }
+  
+  main{
+    display: flex;
+    max-width: 80%;
+    margin: 1em auto;
+  }
+  
+ section{
+    margin: auto;
+  }
+article{
+    border-bottom: solid 1px #A78AA8;
+    width:50%;
+    border-radius: 85px;
+	margin: 0 auto;
+}
+li{
+  text-align: center;
+  list-style-type: none;
+}
+  main h3{
+    font-size: 150%;
+    text-align: center;
+    font-family: script MT;
+  }
+  header p {
+    color: #686468;
+	text-align: center;
+	font-size:3em;
+  }
+
+  footer{
+    text-align: center;
+    margin-top: 2.5em;
+    color: #A78AA8;
+  }
